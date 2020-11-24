@@ -24,4 +24,3 @@ if __name__ == '__main__':
     at = shm_accel(A, w, total_time, val_per_second)
     plt.plot(at[0], at[1])
     plt.show()
-    # write2csv('SHM', A, w, total_time, val_per_second)
